@@ -1,0 +1,18 @@
+body {
+    margin-top: 70px;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #000);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
