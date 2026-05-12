@@ -3,133 +3,321 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marlon | Portafolio</title>
+    <title>Marlon Rivera | Portafolio</title>
 
-    <!-- Bootstrap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Animaciones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Marlon Rivera</a>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Marlon Dev</a>
-    </div>
-</nav>
-
-<!-- HERO -->
-<section class="hero d-flex align-items-center text-center text-white">
-    <div class="container">
-        <h1 class="animate__animated animate__fadeInDown">Hola, soy Marlon 👨‍💻</h1>
-        <p class="animate__animated animate__fadeInUp">
-            Desarrollador Web | Estudiante de Ingeniería de Sistemas
-        </p>
-        <a href="#proyectos" class="btn btn-primary mt-3">Ver Proyectos</a>
-    </div>
-</section>
-
-<!-- SOBRE MI -->
-<section class="container py-5">
-    <h2 class="text-center mb-4">Sobre mí</h2>
-    <p class="text-center">
-        Soy estudiante de Ingeniería de Sistemas con experiencia en desarrollo web,
-        bases de datos y programación en Java, Python y PHP. Me especializo en crear
-        sistemas para negocios como ventas, inventarios y páginas web profesionales.
-    </p>
-
-    <div class="text-center mt-3">
-        <a href="https://github.com/tuusuario" target="_blank" class="btn btn-dark">
-            Ver mi GitHub
-        </a>
-    </div>
-</section>
-
-<!-- PROYECTOS -->
-<section id="proyectos" class="bg-light py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Mis Proyectos</h2>
-        <div class="row">
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h5>Sistema de Ventas</h5>
-                        <p>Login, carrito y gestión de pedidos con PHP y MySQL.</p>
-                        <a href="http://marlon-pedidos-2026.lovestoblog.com/index.php" class="btn btn-primary btn-sm">Ver proyecto</a>
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse justify-content-lg-end" id="mainNav">
+                <ul class="navbar-nav align-items-lg-center gap-lg-3 mb-3 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+                <a href="https://github.com/marlonasfa" target="_blank" rel="noreferrer" class="btn btn-outline-light nav-cta">GitHub</a>
             </div>
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h5>Sistema de Inscripciones</h5>
-                        <p>Control de stock, productos y reportes.</p>
-                        <a href="https://random67.pythonanywhere.com/" class="btn btn-primary btn-sm">Ver proyecto</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h5>Web Agencia de Viajes</h5>
-                        <p>Página web responsive con formulario de contacto.</p>
-                        <a href="#" class="btn btn-primary btn-sm">Ver proyecto</a>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
-</section>
+    </nav>
 
-<!-- HABILIDADES -->
-<section class="container py-5">
-    <h2 class="text-center mb-4">Habilidades</h2>
-    <div class="row text-center">
-        <div class="col">HTML</div>
-        <div class="col">CSS</div>
-        <div class="col">Bootstrap</div>
-        <div class="col">PHP</div>
-        <div class="col">Java</div>
-        <div class="col">Python</div>
-        <div class="col">MySQL</div>
-    </div>
-</section>
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-orb orb-one"></div>
+            <div class="hero-orb orb-two"></div>
 
-<!-- CONTACTO -->
-<section class="bg-dark text-white py-5">
-    <div class="container text-center">
-        <h2>Contacto</h2>
-        <p>¿Tienes un proyecto? Escríbeme</p>
+            <div class="container position-relative">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-7">
+                        <span class="hero-kicker">Portafolio profesional | Desarrollo web y sistemas</span>
+                        <h1 class="hero-title">Dise&ntilde;o experiencias digitales elegantes, claras y listas para impulsar negocios.</h1>
+                        <p class="hero-copy">
+                            Soy Marlon Rivera, desarrollador TI y estudiante de Ingenier&iacute;a de Sistemas.
+                            Construyo p&aacute;ginas web y soluciones para ventas, inventarios y procesos con una
+                            presencia visual m&aacute;s fuerte y una experiencia m&aacute;s confiable.
+                        </p>
 
-        <!-- WhatsApp -->
-        <a href="https://wa.me/51984745554" target="_blank" class="btn btn-success m-2">
-            WhatsApp
-        </a>
+                        <div class="hero-actions d-flex flex-wrap gap-3">
+                            <a href="#proyectos" class="btn btn-brand btn-lg">Ver proyectos</a>
+                            <a href="#contacto" class="btn btn-outline-light btn-lg">Hablemos</a>
+                        </div>
 
-        <!-- Email -->
-        <a href="cica.rpmi20181@gmail.com" class="btn btn-light m-2">
-            Correo
-        </a>
-    </div>
-</section>
+                        <div class="row g-3 hero-metrics">
+                            <div class="col-sm-4">
+                                <div class="metric-card">
+                                    <span>Frontend</span>
+                                    <strong>Interfaces limpias y modernas</strong>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="metric-card">
+                                    <span>Backend</span>
+                                    <strong>Sistemas CRUD funcionales</strong>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="metric-card">
+                                    <span>Data</span>
+                                    <strong>Bases de datos bien estructuradas</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-<!-- FOOTER -->
-<footer class="text-center py-3">
-    <p>© 2026 Marlon - Portafolio</p>
-</footer>
+                    <div class="col-lg-5">
+                        <div class="glass-card profile-panel">
+                            <span class="panel-label">Perfil profesional</span>
+                            <h2>Soluciones web con enfoque visual y funcional.</h2>
+                            <p>
+                                Combino estructura, dise&ntilde;o y tecnolog&iacute;a para entregar sitios responsivos
+                                y sistemas pensados para usuarios reales.
+                            </p>
 
-<!-- JS -->
-<script src="https://github.com/marlonasfa"></script>
+                            <div class="tech-grid">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                                <span>PHP</span>
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>MySQL</span>
+                            </div>
 
+                            <div class="panel-divider"></div>
+
+                            <div class="focus-list">
+                                <div>
+                                    <small>Especialidad</small>
+                                    <strong>Sistemas CRUD y webs corporativas</strong>
+                                </div>
+                                <div>
+                                    <small>Valor</small>
+                                    <strong>Orden, rapidez y claridad visual</strong>
+                                </div>
+                                <div>
+                                    <small>Disponibilidad</small>
+                                    <strong>Proyectos freelance y colaboraciones</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="section-shell section-light">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-5">
+                        <span class="section-kicker">Sobre mi</span>
+                        <h2 class="section-title dark">Tecnolog&iacute;a con visi&oacute;n profesional.</h2>
+                        <p class="section-copy dark-copy">
+                            Soy estudiante de Ingenier&iacute;a de Sistemas con experiencia en desarrollo web,
+                            bases de datos y programaci&oacute;n en Java, Python y PHP. Mi objetivo es crear
+                            herramientas digitales que se vean bien, transmitan confianza y resuelvan
+                            necesidades reales de negocio.
+                        </p>
+                        <a href="https://github.com/marlonasfa" target="_blank" rel="noreferrer" class="btn btn-dark rounded-pill px-4">Explorar GitHub</a>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <article class="info-card">
+                                    <span class="info-number">01</span>
+                                    <h3>Desarrollo web</h3>
+                                    <p>Landing pages, sitios corporativos y experiencias responsivas con mejor presencia visual.</p>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="info-card">
+                                    <span class="info-number">02</span>
+                                    <h3>Sistemas de negocio</h3>
+                                    <p>Soluciones para ventas, inventarios y procesos que piden orden y velocidad.</p>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="info-card">
+                                    <span class="info-number">03</span>
+                                    <h3>Aprendizaje continuo</h3>
+                                    <p>Mejoro cada proyecto con criterio visual, pr&aacute;ctica t&eacute;cnica y foco en resultados.</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section-shell section-dark">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <span class="section-kicker">Proyectos</span>
+                    <h2 class="section-title">Trabajo reciente con enfoque practico.</h2>
+                    <p class="section-copy">
+                        Una selecci&oacute;n de soluciones creadas para mostrar organizaci&oacute;n, rapidez
+                        y valor real para cada necesidad.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <article class="project-card h-100">
+                            <div class="project-top">
+                                <span class="project-tag">PHP + MySQL</span>
+                                <h3>CRUD Profesional</h3>
+                            </div>
+                            <p>
+                                Aplicaci&oacute;n para gestionar registros de manera eficiente con una interfaz limpia,
+                                navegaci&oacute;n sencilla y estructura escalable.
+                            </p>
+                            <div class="project-meta">
+                                <span>Bootstrap</span>
+                                <span>Responsive</span>
+                                <span>Gestion</span>
+                            </div>
+                            <a href="https://crud-1-bry6.onrender.com/" target="_blank" rel="noreferrer" class="project-link">Ver proyecto</a>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <article class="project-card h-100">
+                            <div class="project-top">
+                                <span class="project-tag">Flask + Python</span>
+                                <h3>CRUD con Flask</h3>
+                            </div>
+                            <p>
+                                Proyecto orientado a productividad con operaciones CRUD, arquitectura sencilla
+                                y una base solida para seguir creciendo.
+                            </p>
+                            <div class="project-meta">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <a href="https://crud2-flask-py.onrender.com/" target="_blank" rel="noreferrer" class="project-link">Ver proyecto</a>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <article class="project-card h-100">
+                            <div class="project-top">
+                                <span class="project-tag">Responsive Web</span>
+                                <h3>Agencia de Viajes</h3>
+                            </div>
+                            <p>
+                                Concepto de sitio web enfocado en experiencia visual, conversi&oacute;n y estructura
+                                adaptable para empresas del sector turismo.
+                            </p>
+                            <div class="project-meta">
+                                <span>UI moderna</span>
+                                <span>Contacto</span>
+                                <span>Marca</span>
+                            </div>
+                            <a href="#contacto" class="project-link">Solicitar demo</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section-shell skills-section">
+            <div class="container">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-7">
+                        <span class="section-kicker">Habilidades</span>
+                        <h2 class="section-title dark">Stack flexible para construir y mejorar productos digitales.</h2>
+                        <p class="section-copy dark-copy">
+                            Trabajo con herramientas enfocadas en desarrollo web, l&oacute;gica de negocio y estructura
+                            de datos para entregar soluciones completas.
+                        </p>
+
+                        <div class="skills-cloud">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>Python</span>
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>Dise&ntilde;o responsive</span>
+                            <span>Bases de datos</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="workflow-card h-100">
+                            <span class="panel-label">Como trabajo</span>
+
+                            <div class="workflow-step">
+                                <strong>01</strong>
+                                <div>
+                                    <h3>Analizo</h3>
+                                    <p>Entiendo la necesidad del negocio y priorizo claridad, utilidad y experiencia.</p>
+                                </div>
+                            </div>
+
+                            <div class="workflow-step">
+                                <strong>02</strong>
+                                <div>
+                                    <h3>Dise&ntilde;o</h3>
+                                    <p>Construyo interfaces limpias con buena jerarqu&iacute;a visual y una identidad m&aacute;s fuerte.</p>
+                                </div>
+                            </div>
+
+                            <div class="workflow-step">
+                                <strong>03</strong>
+                                <div>
+                                    <h3>Entrego</h3>
+                                    <p>Desarrollo soluciones responsivas, mantenibles y listas para seguir evolucionando.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section-shell contact-section">
+            <div class="container">
+                <div class="contact-panel">
+                    <span class="section-kicker">Contacto</span>
+                    <h2 class="section-title">Llevemos tu siguiente idea a una presencia digital mas fuerte.</h2>
+                    <p class="section-copy">
+                        Si necesitas una web profesional, un sistema CRUD o una mejora visual para tu proyecto,
+                        conversemos y armemos algo con mas impacto.
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center gap-3">
+                        <a href="https://wa.me/51984745554" target="_blank" rel="noreferrer" class="btn btn-brand btn-lg">WhatsApp</a>
+                        <a href="https://www.linkedin.com/in/marlon-rivera-73b2b9195/" target="_blank" rel="noreferrer" class="btn btn-light btn-lg text-dark">LinkedIn</a>
+                        <a href="https://github.com/marlonasfa" target="_blank" rel="noreferrer" class="btn btn-outline-light btn-lg">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <p class="mb-0">&copy; 2026 Marlon Rivera. Portafolio profesional.</p>
+            <p class="mb-0">Dise&ntilde;ado con Bootstrap, estilo premium y enfoque responsivo.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
